@@ -23,7 +23,7 @@ int main() {
                 counter += 1;
                 sum += counter;
             }
-        } else {
+        } else if (userNumAsInt!=0) {
             while (counter > userNumAsInt) {
                 counter -= 1;
                 sum += counter;
